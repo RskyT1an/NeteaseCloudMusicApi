@@ -4,8 +4,8 @@ const path = require('path')
 
 async function main() {
   const result = await login_cellphone({
-    phone: '手机号',
-    password: '密码',
+    phone: '1186318958',
+    password: 'lht001002',
   })
   const filePath = './test.jpg'
   await avatar_upload({
